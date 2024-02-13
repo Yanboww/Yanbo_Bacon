@@ -33,15 +33,16 @@ public class Main {
                 {
                     String movie = baconActorsLevel2.get(test2)[1];
                     String prevActor = baconActorsLevel2.get(test2)[2];
+                    test1 = arrayContains(prevActor,baconActors);
                     String prevMovie = baconActors.get(test1)[1];
                     if(baconActors.get(test1).length==3) movie = baconActors.get(test1)[2];
-                    if(baconActors.get(test1).length==4)
+                    if(baconActorsLevel2.get(test2).length==4)
                     {
                         movie = baconActorsLevel2.get(test2)[2];
                         prevActor = baconActorsLevel2.get(test2)[3];
                     }
                     System.out.println("Actor name: " + response);
-                    System.out.println(response + "-->" + movie + "-->"+ prevActor + "-->");
+                    System.out.println(response + "-->" + movie + "-->"+ prevActor + "-->" + prevMovie + "-->" + "Kevin Bacon");
                 }
             }
 
