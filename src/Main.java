@@ -23,7 +23,7 @@ public class Main {
                 if(baconActors.get(test1).length==3) movie = baconActors.get(test1)[2];
                 System.out.println();
                 System.out.println("Actor name: " + response);
-                System.out.println(response + "-->" + movie + "--> Kevin Bacon");
+                System.out.println(response + " --> " + movie + " --> Kevin Bacon");
                 System.out.println("Bacon Number: 1");
             }
             else{
@@ -43,7 +43,7 @@ public class Main {
                     if(baconActors.get(test1).length==3) prevMovie = baconActors.get(test1)[2];
                     System.out.println();
                     System.out.println("Actor name: " + response);
-                    System.out.println(response + "-->" + movie + "-->"+ prevActor + "-->" + prevMovie + "-->" + "Kevin Bacon");
+                    System.out.println(response + " --> " + movie + " --> "+ prevActor + " --> " + prevMovie + " --> " + "Kevin Bacon");
                     System.out.println("Bacon Number: 2");
                 }
                 else{
@@ -78,7 +78,7 @@ public class Main {
                         if(baconActors.get(test1).length==3) prevPrevMovie = baconActors.get(test1)[2];
                         System.out.println();
                         System.out.println("Actor Name: " + response);
-                        System.out.println(response + " -->" + movie + "-->" + prevActor+ "-->" + prevMovie + "-->" + prevPrevActor + "-->" + prevPrevMovie+"-->" + "Kevin Bacon");
+                        System.out.println(response + " --> " + movie + " --> " + prevActor+ " --> " + prevMovie + " --> " + prevPrevActor + " --> " + prevPrevMovie+" --> " + " Kevin Bacon");
                         System.out.println("Bacon number: 3");
                     }
                     else{
