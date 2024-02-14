@@ -82,7 +82,8 @@ public class Main {
                         System.out.println("Bacon number: 3");
                     }
                     else{
-                        System.out.println("Bacon number is over 3");
+                        if(response.toLowerCase().equals("kevin bacon")) System.out.println("Bacon Number: 0");
+                        else System.out.println("Bacon number is over 3");
                     }
                 }
             }
@@ -172,7 +173,7 @@ public class Main {
         for(String[] info : list)
         {
             int value =0;
-            if(info[0].contains("(actor)")) value=1;
+            if(info[0].contains("(")) value=1;
             if(info[value].toLowerCase().equals(key)) return index;
             index++;
         }
